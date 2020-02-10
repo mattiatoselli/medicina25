@@ -1,0 +1,23 @@
+{
+  "name": "medilab",
+  "version": "1.0.0",
+  "description": "Thanks for downloading this theme!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattiatoselli/medicina25.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mattiatoselli/medicina25/issues"
+  },
+  "homepage": "https://github.com/mattiatoselli/medicina25#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "expressjs": "^1.0.1"
+  }
+}
