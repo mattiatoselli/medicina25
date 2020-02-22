@@ -8,7 +8,9 @@ app.use(express.static('public/'), express.static(path.join(__dirname, 'public')
 
 router.get('/',function(req,res){
   res.sendFile(path.join(__dirname+'/index.html'));
-  //__dirname : It will resolve to your project folder.
+});
+router.get('/pinerolo',function(req,res){
+  res.sendFile(path.join(__dirname+'/pinerolo.html'));
 });
 
 

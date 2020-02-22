@@ -4,9 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Medilab Free Bootstrap HTML5 Template</title>
-  <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
-  <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+  <meta language="it">
+  <title>Medicina 25: Poliambulatori Distribuiti</title>
+  <meta name="description" content="Medicina 25 è un insieme di poliambulatori all'avanguardia della tecnica,
+  con una serie di servizi integrati nell'offerta che vanno dai consulti specialistici, all'assistenza a domicilio da parte di personale sanitario altamente specializzato.">
+  <meta name="keywords" content="Medicina, Medico, Ambulatorio, Torino, Piemonte, Medici, Dottori, Dottore, Servizi sanitari, Infermieri, Esami, Visite mediche">
 
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
@@ -14,6 +16,34 @@
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
   <style media="screen">
+  .time-info {
+    font-size: 18px;
+}
+.social-pops{
+  align-items: center;
+}
+.no-padding{
+  text-align: center;
+}
+.thumbnail > img {
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 30px;
+    min-height: 333px;
+}
+.thumbnail {
+    display: block;
+    padding: 4px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color:
+    #fff;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+}
     #logo-centrale{
       max-width: 300px;
     }
@@ -34,6 +64,33 @@
     height:100%;
     width:100%;
     position:absolute;
+}
+
+.schedule-tab {
+    background-color:
+#0CB8B6;
+float: left;
+box-shadow: 2px 10px 33px
+    black;
+    border-radius: 20px;
+    padding: 36px;
+}
+.social-icon li {
+    float: left;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-right: 5px;
+    border-radius: 31px;
+    box-shadow: 1px 2px 11px 1px
+    black;
+}
+a{
+  color: white;
+}
+.footer-paragraph{
+  text-align: justify;
 }
   </style>
 </head>
@@ -58,9 +115,12 @@
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#banner">Home</a></li>
                 <li class=""><a href="#service">Servizi</a></li>
-                <li class=""><a href="#booking">Prenotazioni</a></li>
-                <li class=""><a href="#testimonial">Testimonial</a></li>
-                <li class=""><a href="#contact">Contact</a></li>
+                <li class=""><a href="#cta-1">Orari</a></li>
+                <li class=""><a href="#booking">Dove</a></li>
+                <li class=""><a href="#exams">Prestazioni</a></li>
+                <!--<li class=""><a href="#doctor-team">Dottori</a></li>-->
+                <li class=""><a href="#contact">Prenotazioni</a></li>
+                <li class=""><a href="/pinerolo">Pinerolo</a></li>
               </ul>
             </div>
           </div>
@@ -88,6 +148,9 @@
     </div>
   </section>
   <!--/ banner-->
+
+
+
   <!--service-->
   <section id="service" class="section-padding">
     <div class="container">
@@ -109,7 +172,7 @@
                 potrai prenotare una visita specialistica nel momento della giornata a te più comodo, presso il centro che preferisci.<br>
                 In un ambito importante come la tua salute, desideriamo che la tua esperienza sia più confortevole possibile.
               </p>
-              <a href="#contact" class="btn btn-appoint">Prenota ora una visita.</a>
+              <!--<a href="#contact" class="btn btn-appoint">Prenota ora una visita.</a>-->
             </div>
           </div>
           <hr>
@@ -124,7 +187,7 @@
                 Ogni infermiere che si reca a casa del paziente è costantemente in contatto coi medici specialisti da remoto,
                 i dati vengono tracciati con sistemi informatici sicuri, criptati e veloci, ed analizzati immediatamente dagli specialisti più indicati.
               </p>
-              <a href="#contact" class="btn btn-appoint">Necessiti di supporto a casa tua?</a>
+              <!--<a href="#contact" class="btn btn-appoint">Necessiti di supporto a casa tua?</a>-->
             </div>
           </div>
         </div>
@@ -141,7 +204,7 @@
                 Tutto questo allo scopo di poter implementare l’offerta sanitaria di prossimità
                 e garantire alle persone un servizio completo, umano, e vicino alle sue esigenze.
               </p>
-                <a href="#contact" class="btn btn-appoint">Vorrei saperne di più.</a>
+              <!--  <a href="#contact" class="btn btn-appoint">Vorrei saperne di più.</a> -->
             </div>
           </div>
           <hr>
@@ -159,7 +222,7 @@
                 di assistenza domiciliare.
                 Offriamo anche servizi di check-up periodici dello stato di salute.
                 </p>
-                <a href="#contact" class="btn btn-appoint">Quali sono le specialità disponibili?</a>
+                <!--<a href="#contact" class="btn btn-appoint">Quali sono le specialità disponibili?</a>-->
             </div>
           </div>
         </div>
@@ -170,25 +233,43 @@
   <!--cta-->
   <section id="cta-1" class="section-padding">
     <div class="container">
+      <h2>Orari di segreteria</h2>
+      <hr class="botm-line">
       <div class="row">
         <div class="schedule-tab">
           <div class="col-md-4 col-sm-4 mt-boxy-3">
             <div class="mt-boxy-color"></div>
             <div class="time-info">
-              <h3>Asti</h3>
+              <h3>Generale</h3>
               <table style="">
                 <tbody>
                   <tr>
-                    <td>Lunedì - Venerdì</td>
-                    <td>8.00 - 17.00</td>
+                    <td>Lunedì</td>
+                    <td>9.00 - 18.00</td>
+                  </tr>
+                  <tr>
+                    <td>Martedì</td>
+                    <td>9.00 - 18.00</td>
+                  </tr>
+                  <tr>
+                    <td>Mercoledì</td>
+                    <td>9.00 - 18.00</td>
+                  </tr>
+                  <tr>
+                    <td>Giovedì</td>
+                    <td>9.00 - 18.00</td>
+                  </tr>
+                  <tr>
+                    <td>Venerdì</td>
+                    <td>9.00 - 18.00</td>
                   </tr>
                   <tr>
                     <td>Sabato</td>
-                    <td>9.30 - 17.30</td>
+                    <td>Chiuso</td>
                   </tr>
                   <tr>
                     <td>Domenica</td>
-                    <td>9.30 - 15.00</td>
+                    <td>Chiuso</td>
                   </tr>
                 </tbody>
               </table>
@@ -197,20 +278,36 @@
           <div class="col-md-4 col-sm-4 mt-boxy-3">
             <div class="mt-boxy-color"></div>
             <div class="time-info">
-              <h3>Ivrea</h3>
+              <h3>Pinerolo</h3>
               <table style="">
                 <tbody>
                   <tr>
-                    <td>Lunedì - Venerdì</td>
-                    <td>8.00 - 17.00</td>
+                    <td>Lunedì</td>
+                    <td>9.00 - 18.00</td>
+                  </tr>
+                  <tr>
+                    <td>Martedì</td>
+                    <td>9.00 - 18.00</td>
+                  </tr>
+                  <tr>
+                    <td>Mercoledì</td>
+                    <td>9.00 - 18.00</td>
+                  </tr>
+                  <tr>
+                    <td>Giovedì</td>
+                    <td>9.00 - 18.00</td>
+                  </tr>
+                  <tr>
+                    <td>Venerdì</td>
+                    <td>9.00 - 18.00</td>
                   </tr>
                   <tr>
                     <td>Sabato</td>
-                    <td>9.30 - 17.30</td>
+                    <td>Chiuso</td>
                   </tr>
                   <tr>
                     <td>Domenica</td>
-                    <td>9.30 - 15.00</td>
+                    <td>Chiuso</td>
                   </tr>
                 </tbody>
               </table>
@@ -223,38 +320,32 @@
               <table style="">
                 <tbody>
                   <tr>
-                    <td>Lunedì - Venerdì</td>
-                    <td>8.00 - 17.00</td>
+                    <td>Lunedì</td>
+                    <td>9.00 - 18.00</td>
+                  </tr>
+                  <tr>
+                    <td>Martedì</td>
+                    <td>9.00 - 18.00</td>
+                  </tr>
+                  <tr>
+                    <td>Mercoledì</td>
+                    <td>9.00 - 18.00</td>
+                  </tr>
+                  <tr>
+                    <td>Giovedì</td>
+                    <td>9.00 - 18.00</td>
+                  </tr>
+                  <tr>
+                    <td>Venerdì</td>
+                    <td>9.00 - 18.00</td>
                   </tr>
                   <tr>
                     <td>Sabato</td>
-                    <td>9.30 - 17.30</td>
+                    <td>Chiuso</td>
                   </tr>
                   <tr>
                     <td>Domenica</td>
-                    <td>9.30 - 15.00</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-          <div class="col-md-4 col-sm-4 mt-boxy-3">
-            <div class="mt-boxy-color"></div>
-            <div class="time-info">
-              <h3>Torino</h3>
-              <table style="">
-                <tbody>
-                  <tr>
-                    <td>Lunedì - Venerdì</td>
-                    <td>8.00 - 17.00</td>
-                  </tr>
-                  <tr>
-                    <td>Sabato</td>
-                    <td>9.30 - 17.30</td>
-                  </tr>
-                  <tr>
-                    <td>Domenica</td>
-                    <td>9.30 - 15.00</td>
+                    <td>Chiuso</td>
                   </tr>
                 </tbody>
               </table>
@@ -262,6 +353,7 @@
           </div>
         </div>
       </div>
+
     </div>
   </section>
   <!--cta-->
@@ -269,35 +361,33 @@
   <section id="booking" class="section-padding">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 col-sm-4 col-xs-12">
-          <div class="section-title">
-            <h2 class="head-title lg-line">The Medilap <br>Ultimate Dream</h2>
-            <hr class="botm-line">
-            <p class="sec-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua..</p>
-            <a href="" style="color: #0cb8b6; padding-top:10px;">Know more..</a>
-          </div>
-        </div>
-        <div class="col-md-9 col-sm-8 col-xs-12">
+        <div class="col-md-12 col-sm-12 col-xs-12">
           <div style="visibility: visible;" class="col-sm-9 more-features-box">
             <div class="more-features-box-text">
-              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
               <div class="more-features-box-text-description">
-                <h3>Torino</h3>
+                <a href="pinerolo"><h3>Pinerolo</h3></a>
                 <div class="responsive-map">
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2818.5330611789063!2d7.677551515910361!3d45.054696579098284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47886d44651806cb%3A0x957aa1077b17acb8!2sMOTUS%20Rieducazione%20Funzionale!5e0!3m2!1sit!2sit!4v1581438868567!5m2!1sit!2sit" 
-                width="600" height="450" frameborder="0" 
-                style="border:0;" allowfullscreen="true"></iframe>
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2826.95067778184!2d7.326521415538111!3d44.883652679098304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47882505990bedd9%3A0x8efb922c687f25f8!2sVia%20Giuseppe%20di%20Vittorio%2C%201%2C%2010064%20Pinerolo%20TO!5e0!3m2!1sit!2sit!4v1582044191149!5m2!1sit!2sit"
+                  width="600"
+                  height="450"
+                  frameborder="0"
+                  style="border:0;"
+                  allowfullscreen=""></iframe>
                 </div>
-                <br>
-                <br>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
               </div>
             </div>
+            <hr>
             <div class="more-features-box-text">
-              <div class="more-features-box-text-icon"> <i class="fa fa-angle-right" aria-hidden="true"></i> </div>
               <div class="more-features-box-text-description">
-                <h3>It's something important you want to know.</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et. Ut wisi enim ad minim veniam, quis nostrud.</p>
+                <a href="/nichelino"><h3>Nichelino</h3></a>
+                <div class="responsive-map">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2821.146423479249!2d7.65344641544051!3d45.00164837220887!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4788125e6896a31f%3A0x2761930ae8159c93!2sPiazza%20Camandona%2C%201%2C%2010042%20Nichelino%20TO%2C%20Italy!5e0!3m2!1sen!2sus!4v1582061176167!5m2!1sen!2sus"
+                  width="600"
+                  height="450"
+                  frameborder="0"
+                  style="border:0;"
+                  allowfullscreen=""></iframe>
+                </div>
               </div>
             </div>
           </div>
@@ -307,148 +397,288 @@
   </section>
   <!--/ about-->
   <!--doctor team-->
-  <section id="doctor-team" class="section-padding">
+<!--  <section id="doctor-team" class="section-padding">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="ser-title">Meet Our Doctors!</h2>
+          <h2 class="ser-title">Specialisti</h2>
           <hr class="botm-line">
         </div>
-        <div class="col-md-3 col-sm-3 col-xs-6">
+        <div class="col-md-3 col-sm-4 col-xs-12">
           <div class="thumbnail">
-            <img src="img/doctor1.jpg" alt="..." class="team-img">
+            <img src="https://www.nichelinomedica.com/wp-content/uploads/2019/11/emanuele-violante.png" alt="..." class="team-img">
             <div class="caption">
-              <h3>Jessica Wally</h3>
-              <p>Doctor</p>
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              </ul>
+              <h3>Emanuele Violante</h3>
+              <p>Direttore Sanitario Nichelino</p>
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-3 col-xs-6">
+        <div class="col-md-3 col-sm-4 col-xs-12">
           <div class="thumbnail">
-            <img src="img/doctor2.jpg" alt="..." class="team-img">
+            <img src="https://www.nichelinomedica.com/wp-content/uploads/2019/11/valter_canavero.png" alt="..." class="team-img">
             <div class="caption">
-              <h3>Iai Donas</h3>
-              <p>Doctor</p>
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              </ul>
+              <h3>Valter Canavero</h3>
+              <p>Biologo Nutrizionista</p>
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-3 col-xs-6">
+        <div class="col-md-3 col-sm-4 col-xs-12">
           <div class="thumbnail">
-            <img src="img/doctor3.jpg" alt="..." class="team-img">
+            <img src="https://www.nichelinomedica.com/wp-content/uploads/2019/11/biondi.png" alt="..." class="team-img">
             <div class="caption">
-              <h3>Amanda Denyl</h3>
-              <p>Doctor</p>
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              </ul>
+              <h3>Maddalena Biondi</h3>
+              <p>Psicoterapeuta Sessuologa</p>
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-3 col-xs-6">
+        <div class="col-md-3 col-sm-4 col-xs-12">
           <div class="thumbnail">
-            <img src="img/doctor4.jpg" alt="..." class="team-img">
+            <img src="https://www.nichelinomedica.com/wp-content/uploads/2019/11/missolungi.png" alt="..." class="team-img">
             <div class="caption">
-              <h3>Jason Davis</h3>
-              <p>Doctor</p>
-              <ul class="list-inline">
-                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-              </ul>
+              <h3>Alessandro Missolungi</h3>
+              <p>Medico Oculista</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="thumbnail">
+            <img src="https://www.nichelinomedica.com/wp-content/uploads/2019/11/lauraquaranta.png" alt="..." class="team-img">
+            <div class="caption">
+              <h3>Laura Quaranta</h3>
+              <p>Medico Dermatologo</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="thumbnail">
+            <img src="https://www.nichelinomedica.com/wp-content/uploads/2019/11/Savio_t.png" alt="..." class="team-img">
+            <div class="caption">
+              <h3>Luca Savio</h3>
+              <p>Ortopedico Traumatologo</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="thumbnail">
+            <img src="https://www.nichelinomedica.com/wp-content/uploads/2019/11/vicentini.png" alt="..." class="team-img">
+            <div class="caption">
+              <h3>Silvia Vicentini</h3>
+              <p>Cardiologa</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="thumbnail">
+            <img src="https://www.nichelinomedica.com/wp-content/uploads/2019/11/elisabetta-cantanna.png" alt="..." class="team-img">
+            <div class="caption">
+              <h3>Elisabetta Cantanna</h3>
+              <p>Ginecologa</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="thumbnail">
+            <img src="https://www.nichelinomedica.com/wp-content/uploads/2019/11/miccono.png" alt="..." class="team-img">
+            <div class="caption">
+              <h3>Alessandra Miccono</h3>
+              <p>Biologa Nutrizionista</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="thumbnail">
+            <img src="https://www.nichelinomedica.com/wp-content/uploads/2019/11/tommaso_mairano.png" alt="..." class="team-img">
+            <div class="caption">
+              <h3>Tommaso Mairano</h3>
+              <p>Medico Estetico</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="thumbnail">
+            <img src="https://www.nichelinomedica.com/wp-content/uploads/2019/11/buratti.png" alt="..." class="team-img">
+            <div class="caption">
+              <h3>Carlo Alberto Buratti</h3>
+              <p>Medico Ortopedico</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="thumbnail">
+            <img src="https://www.nichelinomedica.com/wp-content/uploads/2019/12/domenico-martorano.png" alt="..." class="team-img">
+            <div class="caption">
+              <h3>Domenico Martorano</h3>
+              <p>Medico Radiologo</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="thumbnail">
+            <img src="https://www.nichelinomedica.com/wp-content/uploads/2019/12/domenico-martorano.png" alt="..." class="team-img">
+            <div class="caption">
+              <h3>Domenico Martorano</h3>
+              <p>Medico Radiologo</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="thumbnail">
+            <img src="https://www.nichelinomedica.com/wp-content/uploads/2019/11/jahanbakhsh.png" alt="..." class="team-img">
+            <div class="caption">
+              <h3>Hassan Jahanbakhsh</h3>
+              <p>Medico Chirurgo</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="thumbnail">
+            <img src="https://www.nichelinomedica.com/wp-content/uploads/2019/11/antonio-criasia.png" alt="..." class="team-img">
+            <div class="caption">
+              <h3>Antonio Criasia</h3>
+              <p>Medico Geriatra</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-4 col-xs-12">
+          <div class="thumbnail">
+            <img src="https://cdn2.vectorstock.com/i/1000x1000/65/26/doctor-avatar-character-icon-vector-12866526.jpg" alt="..." class="team-img">
+            <div class="caption">
+              <h3>Francesca Revello</h3>
+              <p>Otorinolaringoiatra</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </section>
+  </section>-->
   <!--/ doctor team-->
   <!--testimonial-->
-  <section id="testimonial" class="section-padding">
+  <section id="exams" class="section-padding">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="ser-title">see what patients are saying?</h2>
+          <h2 class="ser-title">Servizi Erogati</h2>
           <hr class="botm-line">
         </div>
-        <div class="col-md-4 col-sm-4">
-          <div class="testi-details">
-            <!-- Paragraph -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <div class="schedule-tab">
+          <div class="col-md-12 col-sm-12 mt-boxy-12">
+            <div class="mt-boxy-color"></div>
+            <div class="time-info">
+              <h3>Visite Specialistiche</h3>
+              <hr>
+              <div class="col-md-4 col-sm-4 mt-boxy-4">
+              <p>Anestesiologia</p>
+              <p>Cardiologia</p>
+              <p>Agopuntura</p>
+              <p>Mesoterapia</p>
+              <p>Chirurgia Generale</p>
+              <p>Ortopedia</p>
+              <p>Otorino-Laringoiatra</p>
+            </div>
+            <div class="col-md-4 col-sm-4 mt-boxy-4">
+              <p>Chirurgia Vascolare</p>
+              <p>Dermatologia</p>
+              <p>Ematologia</p>
+              <p>Geriatria</p>
+              <p>Ginecologia</p>
+              <p>Pneumologia</p>
+              <p>Reumatologia</p>
+            </div>
+            <div class="col-md-4 col-sm-4 mt-boxy-4">
+              <p>Ostetricia</p>
+              <p>Medicina Estetica</p>
+              <p>Neurologia</p>
+              <p>Nefrologia</p>
+              <p>Medicina Legale</p>
+              <p>Oculistica</p>
+            </div>
+            </div>
           </div>
-          <div class="testi-info">
-            <!-- User Image -->
-            <a href="#"><img src="img/thumb.png" alt="" class="img-responsive"></a>
-            <!-- User Name -->
-            <h3>Alex<span>Texas</span></h3>
+          <div class="col-md-4 col-sm-4 mt-boxy-3">
+            <div class="mt-boxy-color"></div>
+            <div class="time-info">
+              <h3>Visite mediche sportive</h3>
+              <hr>
+              <p>
+                La visita medico-sportiva non agonistica,
+                prevede un’indagine sulla storia clinica dettagliata ed uno
+                screening iniziale che si compone di visita medica generale,
+                ecg, valutazione pressoria e antropometrica.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="col-md-4 col-sm-4">
-          <div class="testi-details">
-            <!-- Paragraph -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="col-md-4 col-sm-4 mt-boxy-3">
+            <div class="mt-boxy-color"></div>
+            <div class="time-info">
+              <h3>Ecografie</h3>
+              <hr>
+              <p>Presso i nostri centri è possibile prenotare ecografie per: addome completo, Transvaginale, Testicolare, Inguinale, Mammaria, Collo, Transrettale, Tessuti Molli, Intestinale, Tiroidea, Parotidea, Ecodoppler.</p>
+            </div>
           </div>
-          <div class="testi-info">
-            <!-- User Image -->
-            <a href="#"><img src="img/thumb.png" alt="" class="img-responsive"></a>
-            <!-- User Name -->
-            <h3>Alex<span>Texas</span></h3>
+          <div class="col-md-4 col-sm-4 mt-boxy-3">
+            <div class="mt-boxy-color"></div>
+            <div class="time-info">
+              <h3>Ginecologia/Ostetricia</h3>
+              <hr>
+              <p>
+                Grazie all'utilizzo di ecografi Voluson di ultima generazione possono essere eseguite ecografie anche in 4D.
+                Oltre a visite come Pap test, Ecografia pelvica e transvaginale.
+                Ecografia morfologica, I e III trimestre, Impianto di contraccettivi, Esami batteriologici ed esecuzione tampone.
+              </p>
+            </div>
           </div>
-        </div>
-        <div class="col-md-4 col-sm-4">
-          <div class="testi-details">
-            <!-- Paragraph -->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          <div class="col-md-4 col-sm-4 mt-boxy-3">
+            <div class="mt-boxy-color"></div>
+            <div class="time-info">
+              <h3>Medicina Estetica</h3>
+              <hr>
+              <p>
+                Nei nostri centri gli specialisti della chirurgia e della medicina estetica possono ridare tono al tuo viso tramite filler, Biorevitalizzazione del viso, ed asportazione di inestetismi quali cisti, nei ed escrescenze.
+                Siamo anche autorizzati alla somministrazione della Tossina botulinica – l’arma definitiva per combattere le rughe più ostiche che appesantiscono l’espressione -.
+              </p>
+            </div>
           </div>
-          <div class="testi-info">
-            <!-- User Image -->
-            <a href="#"><img src="img/thumb.png" alt="" class="img-responsive"></a>
-            <!-- User Name -->
-            <h3>Alex<span>Texas</span></h3>
+          <div class="col-md-4 col-sm-4 mt-boxy-3">
+            <div class="mt-boxy-color"></div>
+            <div class="time-info">
+              <h3>Idrocolon terapia</h3>
+              <hr>
+              <p>
+                L'idrocolonterapia consente il lavaggio del tratto di intestino che si estende dall'ampolla rettale al cieco.
+                La procedura consiste nell'introduzione nel retto di acqua depurata, filtrata e batteriologicamente pura,
+                attraverso un sondino di plastica morbida e flessibile a due vie.
+
+                L'idrocolonterapia si rivela particolarmente utile in presenza di disturbi funzionali
+                del colon e nella riabilitazione della capacità peristaltica intestinale.
+              </p>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
   <!--/ testimonial-->
-  <!--cta 2-->
-  <section id="cta-2" class="section-padding">
-    <div class="container">
-      <div class=" row">
-        <div class="col-md-2"></div>
-        <div class="text-right-md col-md-4 col-sm-4">
-          <h2 class="section-title white lg-line">« A few words<br> about us »</h2>
-        </div>
-        <div class="col-md-4 col-sm-5">
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a typek
-          <p class="text-right text-primary"><i>— Medilap Healthcare</i></p>
-        </div>
-        <div class="col-md-2"></div>
-      </div>
-    </div>
-  </section>
-  <!--cta-->
+
   <!--contact-->
   <section id="contact" class="section-padding">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
-          <h2 class="ser-title">Contact us</h2>
+          <h2 class="ser-title">Contatti e prenotazioni</h2>
           <hr class="botm-line">
         </div>
         <div class="col-md-4 col-sm-4">
-          <h3>Contact Info</h3>
+          <h3>Centrale</h3>
+          <div class="space"></div>
+          <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>Alpignano<br> Via Val della torre 24</p>
+          <div class="space"></div>
+          <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@hctsolutions.net</p>
+          <div class="space"></div>
+          <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+1 800 123 1234</p>
+        </div>
+        <hr>
+        <div class="col-md-4 col-sm-4">
+          <h3>Nichelino Medica</h3>
           <div class="space"></div>
           <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>321 Awesome Street<br> New York, NY 17022</p>
           <div class="space"></div>
@@ -456,7 +686,18 @@
           <div class="space"></div>
           <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+1 800 123 1234</p>
         </div>
-        <div class="col-md-8 col-sm-8 marb20">
+        <hr>
+        <div class="col-md-4 col-sm-4">
+          <h3>Centrale</h3>
+          <div class="space"></div>
+          <p><i class="fa fa-map-marker fa-fw pull-left fa-2x"></i>321 Awesome Street<br> New York, NY 17022</p>
+          <div class="space"></div>
+          <p><i class="fa fa-envelope-o fa-fw pull-left fa-2x"></i>info@companyname.com</p>
+          <div class="space"></div>
+          <p><i class="fa fa-phone fa-fw pull-left fa-2x"></i>+1 800 123 1234</p>
+        </div>
+        <hr>
+      <!--  <div class="col-md-8 col-sm-8 marb20">
           <div class="contact-info">
             <h3 class="cnt-ttl">Having Any Query! Or Book an appointment</h3>
             <div class="space"></div>
@@ -485,7 +726,7 @@
               </div>
             </form>
           </div>
-        </div>
+        </div>-->
       </div>
     </div>
   </section>
@@ -497,29 +738,29 @@
         <div class="row">
           <div class="col-md-4 col-sm-4 marb20">
             <div class="ftr-tle">
-              <h4 class="white no-padding">About Us</h4>
+              <h4 class="white no-padding">Copyright</h4>
             </div>
             <div class="info-sec">
-              <p>Praesent convallis tortor et enim laoreet, vel consectetur purus latoque penatibus et dis parturient.</p>
+              <p class="footer-paragraph">
+                Medicina 25 è un marchio registrato, ogni uso scorretto dello stesso verrà perseguito a norma di legge.
+              </p>
             </div>
           </div>
           <div class="col-md-4 col-sm-4 marb20">
             <div class="ftr-tle">
-              <h4 class="white no-padding">Quick Links</h4>
+              <h4 class="white no-padding">Avviso</h4>
             </div>
             <div class="info-sec">
-              <ul class="quick-info">
-                <li><a href="index.html"><i class="fa fa-circle"></i>Home</a></li>
-                <li><a href="#service"><i class="fa fa-circle"></i>Service</a></li>
-                <li><a href="#contact"><i class="fa fa-circle"></i>Appointment</a></li>
-              </ul>
+              <p class="footer-paragraph">
+                Ogni informazione contenuta in questo sito ha valenza di presentazione e non costituisce in alcun modo un parere medico o informativo.
+              </p>
             </div>
           </div>
           <div class="col-md-4 col-sm-4 marb20">
             <div class="ftr-tle">
-              <h4 class="white no-padding">Follow us</h4>
+
             </div>
-            <div class="info-sec">
+            <div class="info-sec social-pops">
               <ul class="social-icon">
                 <li class="bglight-blue"><i class="fa fa-facebook"></i></li>
                 <li class="bgred"><i class="fa fa-google-plus"></i></li>
